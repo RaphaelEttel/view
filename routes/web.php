@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Rota para a página ob_clean
+Route::get('/ola', function(){
+  return view('ola');
+});
